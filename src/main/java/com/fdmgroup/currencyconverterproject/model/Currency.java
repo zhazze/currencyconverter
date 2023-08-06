@@ -2,7 +2,11 @@ package com.fdmgroup.currencyconverterproject.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+/*
+ * Represents currency information with its properties and exchange rate information
+ * The currency information follows the structure of its JSON file
+ * Currency info is being deserialized from JSON to Java objects
+ */
 public class Currency {
 
 	    private String code;
