@@ -1,0 +1,18 @@
+18:18:14.790 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Bob. Invalid exchange rate between cad to usd.
+18:18:14.793 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Susan. Invalid exchange rate between cad to eur.
+18:18:14.793 [main] WARN  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction skipped for user: Tommy. Insufficient funds for usd.
+18:54:13.424 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Bob. Invalid exchange rate between cad to usd.
+18:54:13.426 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Susan. Invalid exchange rate between cad to eur.
+18:54:13.426 [main] WARN  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction skipped for user: Tommy. Insufficient funds for usd.
+19:11:54.364 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Bob. Invalid exchange rate between cad to usd.
+19:11:54.367 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Susan. Invalid exchange rate between cad to eur.
+19:11:54.367 [main] WARN  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction skipped for user: Tommy. Insufficient funds for usd.
+19:16:16.514 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Bob. The FROM currency cad or TO currency usdcould not be found.
+19:16:16.516 [main] WARN  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction skipped for user: Susan. Converting the same exchange rates from: cad to eur.
+19:16:16.517 [main] WARN  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction skipped for user: Tommy. Insufficient funds for usd.
+19:37:14.585 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Bob. The FROM currency cad or TO currency usdcould not be found.
+19:37:14.588 [main] INFO  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction for user: Susanwas successful.
+19:37:14.589 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Error while reading the transaction file.Stream closed
+20:10:01.085 [main] ERROR com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction failed for user: Bob. The FROM currency cad or TO currency usdcould not be found.
+20:10:01.091 [main] INFO  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction for user: Susan was successful.
+20:10:01.092 [main] WARN  com.fdmgroup.currencyconverterproject.transaction.TransactionProcessor - Transaction skipped for user: Tommy. Insufficient funds for usd.
